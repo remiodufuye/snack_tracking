@@ -5,4 +5,6 @@
 <h3> Calories: <%= @snack.calories %></h3>
 <h3> Deliciousness : <%= @snack.deliciousness %></h3>
 
+<%= link_to "Edit this Snack" , edit_snack_path(@snack) %>
+<%= link_to "Delete this Snack" , snack_path(@snack) , :method => :delete , data: {:confirm => "Do You Really want to delete this snack ? "}%>
 <%= link_to "Index Page" , snacks_path %>
