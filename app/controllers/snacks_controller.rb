@@ -14,10 +14,11 @@ class SnacksController < ApplicationController
   end 
 
   def new
+  	@snack = Snack.new
   end 
 
   def create
   end 
-  
+
 
 end
