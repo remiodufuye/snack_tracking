@@ -2,6 +2,7 @@ class SnacksController < ApplicationController
   
 
   def home
+  
   end 
 
   def index
